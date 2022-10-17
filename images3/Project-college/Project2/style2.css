@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* NavBar */
+
+.header {
+    height: 44px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    opacity: 0.936;
+    z-index: 100;
+}
+
+.nav-links-li {
+    display: flex;
+}
+
+.nav-links-li li {
+    list-style: none;
+}
+
+.links-items {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    margin-top: 12px;
+}
+
+.nav-links-li a {
+    text-decoration: none;
+    margin: 60px;
+    color: azure;
+    font-size: 12px;
+    transition: 0.3s ease-in;
+}
+
+.nav-links-li a:hover {
+    color: grey;
+
+}
+
+/* #Main-highlight */
+
+#pic1 {
+    width: 100%;
+    margin-top: 4px;
+    background-color: rgb(255, 0, 0);
+    padding-top: 30px;
+    position: relative;
+    opacity: 0.995;
+    background: url(images2/ipad_large.jpg);
+}
+
+#pic1 img {
+    width: 25%;
+    height: 500px;
+    margin-left: 372px;
+}
+
+.highlight {
+    position: absolute;
+    top: 15rem;
+    right: 20rem;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    line-height: 75px;
+
+}
+
+.primary-text {
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    word-spacing: -2px;
+    padding-top: 20px;
+}
+
+.buy-learn-links a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    color: blue;
+    transition: .223s ease-in-out;
+    padding: 10px 0;
+}
+
+.buy-learn-links a:hover {
+    color: lightskyblue;
+}
+
+/* #Second-Highlight */
+
+#second-highlight {
+    position: relative;
+    background-color: #11213b;
+    margin-top: 27px;
+    width: 72%;
+}
+
+#second-highlight img {
+    width: 50%;
+    height: 50%;
+}
+
+.second {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 74%;
+    right: 30%;
+    line-height: 70px;
+    font-family: sans-serif;
+}
+
+.second .primary-text {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.second .secondary-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.second .third-text {
+    color: white;
+    font-size: 27px;
+}
+
+.second .buy-learn-links a {
+    color: rgb(208, 255, 0);
+    padding: 0px 0;
+    /* padding-bottom: 23px; */
+}
+
+.second .buy-learn-links a:hover {
+            color: rgb(233, 97, 6);
+}
+
+#anu {
+    display: flex;
+}
+
+#colors11 {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.c {
+    color: #A50011;
+}
+
+.o {
+    color: #F9F3EE;
+}
+
+.l {
+    color: #546985;
+}
+
+.s {
+    color: #215E7C;
+}
+
+.r {
+    color: #FAE0D8;
+}
+
+.oo {
+    color: #364935;
+}
+
+.iphoneclrs img {
+    position: absolute;
+    top: 25%;
+    right: 55px;
+    width: 75%;
+}
+
+.iphoneclrs {
+    position: absolute;
+    top: 59.9%;
+    right: 40px;
+    width: 25%;
+    height: 497px;
+    /* z-index: 2; */
+    background-color: #ffffff;
+}
+
+#sec-highlight {
+    margin-bottom: 27px;
+}
+
+#img3pic {
+    border: 4px solid darkblue;
+    width: 65%;
+    margin-left: 664px;
+    height: 435.971px;
+}
+
+#img3pic img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ftrs {
+    top: 70.6rem;
+    position: absolute;
+    border: 4px solid #364935;
+    width: fit-content;
+    height: 435.971px;
+    margin-left: 66px;
+    text-align: center;
+    line-height: 70px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+
+}
+
+.ftrs .primary-text {
+    color: rgb(151, 35, 35);
+}
+
+.ftrs .secondary-class {
+    padding-bottom: 79px;
+}
+
+.m2 {
+    position: absolute;
+    top: 9rem;
+    left: 17rem;
+    padding-bottom: 20px;
+}
+
+.m2 img {
+    width: 60px;
+    height: 60px;
+}

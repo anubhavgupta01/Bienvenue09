@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+#navBar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    color: rgb(180, 129, 129);
+    border: 10px solid grey;
+    background-color: grey;
+    list-style: none;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+nav a {
+    color: rgb(7, 4, 4);
+    margin-left: 120px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+#navBar img {
+    display: flex;
+    width: 15px;
+}
+nav a:hover{
+    color: rgb(206, 219, 219);
+    cursor: pointer;
+}
+#wp{
+    /* border: 5px solid rebeccapurple; */
+    margin-top:   38px;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: block inline;
+}
+#wp h1{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #6633FF;
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    
+}
+#wp h2{
+    color: #6699FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 893px;
+    font-family: serif;
+}
+#wp h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: hotpink;
+}
+#wp h3{
+    font-size: 25px;
+    color: #6666FF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+#wp h4{
+    color: #6600FF;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: fantasy;
+}
+
+#Macbook{
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 320px;
+    width: fit-content;
+}
+.air{
+    position: relative;
+    float: right;
+    height: 400px;
+    top: -45px;
+}
+.item{
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+    margin-bottom: 3px;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.basicftr{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    margin-bottom: 13px;
+    width: fit-content;
+    height: fit-content;
+}
+.m2 {
+    float: right;
+    width: 52px;
+    height: 52px;
+    margin-left: 8px;
+}
+.price{
+    font-size: 30px;
+    color: rgb(133, 133, 121);
+    text-align: left;
+}
+span {
+    font-size: 22px;
+    margin-right: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    width: fit-content;
+}
+#Macbook a{
+    text-decoration: none;
+    color: hotpink;
+}
+#Macbook span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: green;
+}
+#anu  span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orange;
+}
+#iPhone{
+    margin-top: 350px;
+    text-align: center;
+    /* margin-left: 500px; */
+    line-height: 70px;
+    position: static;
+}
+.item2{
+color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+    background-color: black;
+    padding: 20px 0;
+}
+.basicftr2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    margin-bottom: -10px;
+    text-align: center;
+    margin-top: -10px;
+    background-color: black;
+    padding: 20px 0;
+}
+
+#iPhone a{
+    text-decoration: none;
+    color: hotpink;
+    height: 1px;
+}
+#chitra {
+    height: 10px;
+}
+
+#iphone13{
+    display: flex;
+    padding-left: 744px;
+    width: 100px;
+    height: 100px;
+    padding-top: 110px;
+    position: relative;
+    right: -600px;
+    top: -442px;
+    height: 30%;
+    width: 30%;
+    z-index: 1;
+
+
+}
+.disc{
+    color: rgb(226, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -250px;
+}
+p{
+    font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(233, 220, 188);
+        text-align: center;
+        margin-bottom: 8px;
+}
+.sc{
+    color: rgb(212, 11, 212);
+    font-size: 60px;
+}
+#stddisc{
+    background-color: rgb(0, 0, 0);
+}
+#stddisc h2{
+    
+    font-size: 30px;
+    color: rgb(204, 138, 58);
+    width:fit-content;
+    margin-left: 860px;
+    margin-bottom: 20px;
+
+}
+#stddisc h2:hover{
+    color: rgb(42, 16, 189);
+    text-decoration: underline;
+    font-family:serif;
+    margin-bottom: 3px;
+}
+#stddisc img{
+    margin-left: 668px;
+}
+
+#overview{
+    height: fit-content;
+    margin-top: 100px;
+    align-items: center; 
+    line-height: 16px;
+    
+}
+#overview img{
+    width: 100%;
+    padding: 0px;
+    height: 423.15px;
+    width: 900px;
+    border: 2px solid rgb(173, 173, 204);
+}
+#img1{
+    position: static;
+}
+.class{
+    position: fixed;
+}
+#overview h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(143, 9, 231);
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:46px;
+    background-color: rgb(0, 0, 0);
+}
+#img1{
+    position: relative;
+}
+#img1 h4{
+    position: absolute;
+    top: 80%; left: 690px;
+    color: rgb(190, 185, 206);
+}
+#img1 h5{
+    position: absolute;
+    top: 88%; left: 690px;
+    color: rgb(139, 139, 126);
+    font-size: 19px;
+}
+
+#img1 h1{
+position: absolute;
+    top: 71%; left: 690px;
+    color: rgb(251, 249, 255);
+}
+#img2{
+    position: relative;
+}
+#img2 h1{
+    position: absolute;
+    top: 306px; left: 47px;
+    color: rgb(251, 249, 255);
+}
+
+#img2 h4{
+    position: absolute;
+    top: 347px; left: 47px;
+    color: rgb(190, 185, 206);
+}
+#img2 h5{
+    position: absolute;
+    top: 383px; left: 47px;
+    color: rgb(139, 139, 126);
+    font-size: 19px;
+}
+#img3{
+    position: relative;
+}
+
+#img3 h1{
+    position: absolute;
+    top: 88px; left: 688px;
+    color: rgb(251, 249, 255);
+    line-height: 34px;
+}
+#img3 h4{
+    position: absolute;
+    top: 60px; left: 688px;
+    color: rgb(190, 185, 206);
+}#img3 h5{
+    position: absolute;
+    top: 28px; left: 688px;
+    color: rgb(139, 139, 126);
+    font-size: 19px;
+}
+#img4{
+    position: relative;
+}
+#img4 h1{
+    position: absolute;
+    top: 88px; left: 47px;
+    color: rgb(251, 249, 255);
+    line-height: 34px;
+}
+#img4 h4{
+    position: absolute;
+    top: 51px; left: 47px;
+    color: rgb(190, 185, 206);
+    line-height: 34px;
+}
+#img4 h5{
+    position: absolute;
+    top: 20px; left: 47px;
+    color: rgb(139, 139, 126);
+    line-height: 34px;
+    font-size: 19px;
+}
+#adi{
+    background-color: black;
+}
+/* #anu{
+    /* background-color: black; */
+#icons{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#icons img{
+    width: 100px;
+    height: 100px;
+}

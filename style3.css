@@ -1,0 +1,923 @@
+* {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    scroll-behavior: smooth;
+}
+
+
+
+/* Background Image */
+
+body {
+    background-color: black;
+    /* height: 100vh; */
+
+}
+
+.background-image {
+    background-image: url(images3/pexels-riccardo-bertolo-4245826.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 20% 2%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+/* Navbar */
+
+.navbar-items {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 25%;
+    left: 0%;
+    height: fit-content;
+    width: 10%;
+    justify-content: space-evenly;
+    text-align: center;
+    z-index: 100000;
+
+}
+
+.navbar-items a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: #001423;
+    transition: .266s ease-in-out;
+    opacity: 0.8;
+    border-right: 3px solid black;
+    font-weight: 110;
+    font-size: 15px;
+}
+
+.navbar-items a:hover {
+    color: wheat;
+    background-color: rgb(0, 0, 0);
+    border-right: 1px solid rgb(255, 255, 255);
+    opacity: 0.99;
+    font-size: 20px;
+
+}
+
+/* HomePage Images */
+/* right: 8%;
+    top: 59.5%;
+    position: absolute; */
+
+#homeimages {
+    background-color: black;
+}
+
+.images {
+    left: 17%;
+    top: -402px;
+    position: relative;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 3;
+}
+
+.images img {
+    position: relative;
+    border: 2px solid transparent;
+    height: 400px;
+    width: 100%;
+    z-index: 6;
+    cursor: pointer;
+}
+
+/* Images hover effect */
+
+.img1 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+}
+
+.img1:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+}
+
+.img2 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+
+}
+
+.img2:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+
+}
+
+.img3 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+}
+
+.img3:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+
+
+}
+
+.img4 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+}
+
+.img4:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+
+
+}
+
+.img5 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+}
+
+.img5:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+
+
+}
+
+.img6 {
+    opacity: 0.6;
+    transition: .2s ease-in;
+    background-color: transparent;
+}
+
+.img6:hover {
+    opacity: 1;
+    transform: scale(1.111);
+    z-index: 3;
+
+}
+
+/* Welcome message */
+
+/* Bienvenue */
+
+.welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    top: 7%;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+
+    font-size: 250px;
+    position: absolute;
+    top: 55px;
+    left: 20.5%;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: default;
+    color: black;
+}
+
+.portfolio {
+    font-size: 80px;
+    position: absolute;
+    top: 874.2px;
+    right: 37%;
+    background-color: #001423af;
+    opacity: .7;
+    transition: 0.4s ease-out;
+    color: wheat;
+    cursor: default;
+}
+
+.portfolio:hover {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    background-color: wheat;
+}
+
+/* h1{font-size: 72px;
+  background: -webkit-linear-gradient(#219dd2, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  */
+
+/* About me */
+
+#about-me {
+    background-color: black;
+}
+
+.about-me-context {
+    width: 1440px;
+    height: fit-content;
+    background-color: black;
+    position: relative;
+    left: 17%;
+    top: -600px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    z-index: 7;
+    align-items: center;
+    background-color: #060605;
+    padding: 50px;
+}
+
+#about-me-h1 {
+    font-size: 40px;
+    text-align: center;
+    color: wheat;
+    padding-bottom: 25%;
+    margin-top: -10px;
+    cursor: default;
+}
+
+.aboutme-img {
+    position: relative;
+    width: 0;
+    left: 17%;
+    top: -169px;
+    z-index: 44;
+    left: 42.5%;
+}
+
+.aboutme-img img {
+    height: 300px;
+    width: 450px;
+    position: relative;
+    border: 2px solid rgba(128, 128, 128, 0.117);
+}
+
+.about-me-context p {
+    color: wheat;
+    font-size: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.066);
+    width: 70%;
+}
+
+.name-h1 {
+    color: wheat;
+    padding: 50px;
+    font-size: 40px;
+    cursor: default;
+}
+
+span {
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 50px;
+}
+
+/* Technical bar */
+
+.technical {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.per100 {
+    width: 804px;
+    background-color: rgb(255, 255, 255);
+}
+
+.per65 {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #0086ad;
+    width: 65%;
+    height: fit-content;
+    transition: .5s;
+}
+
+/* .per65:hover{
+    width: 65%;
+    background-color: blueviolet;
+} */
+.per95 {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #0086ad;
+    width: 95%;
+    height: fit-content;
+}
+
+.per70 {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #0086ad;
+    width: 70%;
+    height: fit-content;
+}
+
+.pertext {
+    color: rgb(255, 255, 255);
+    padding: 35px 0;
+    text-align: center;
+    width: fit-content;
+}
+
+.pertext:hover {
+    color: purple;
+    cursor: default;
+}
+
+
+/* Charges */
+
+.charges {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -450px;
+}
+
+.charges1-2-3 {
+    background-color: #060605;
+    position: relative;
+    /* border: 3px red solid; */
+    height: 1000px;
+    width: 1440px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    left: 17%;
+    justify-content: space-around;
+    /* padding: 50px; */
+    align-items: center;
+}
+
+.charges h1 {
+    padding: 40px;
+}
+
+.charges-heading {
+    background-color: #0086ad;
+    text-align: center;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.charges1,
+.charges2,
+.charges3 {
+    height: 700px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.price {
+    background-color: rgb(151, 135, 166);
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.charges-1txt,
+.charges-2txt,
+.charges-3txt {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    opacity: .4;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.7s;
+}
+
+.charges-2txt:hover,
+.charges-3txt:hover,
+.charges-1txt:hover {
+    opacity: 1;
+}
+
+.chrgg {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    left: 40.5%;
+    width: fit-content;
+    background: #060605;
+}
+
+/* Testimonials */
+
+#revieww {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -178px;
+}
+.feedback1{
+    position: relative;
+    top: 222px;
+    /* width: 50px; */
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.377);
+    font-size: 22px;
+}
+.review{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-color: rgb(29, 31, 30);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1111;
+    margin: 10px;
+    top:59em;
+    text-align: center;
+    justify-content: center;
+    right: 70px;
+    opacity: .9;
+        
+}
+
+.reviewshead1{
+    color: #ffffff;
+    position: relative;
+    z-index: 111111111;
+    font-size: 5rem;
+    height: fit-content;
+    top: 50rem;
+    left: 50rem;
+    text-align: center;
+    background-color: #2c2f3067;
+}
+
+/* Contact form */
+
+#contact-form {
+    background-color: black;
+    position: relative;
+    top: 780px;
+    height: 1100px;
+    z-index: 44;
+}
+
+.contact-heading h1 {
+    margin-bottom: 25px;
+    color: #000000;
+    background-color: #06060509;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    border: 3px black solid;
+    width: 1440px;
+    position: relative;
+    left: 16.4%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    top: 100px;
+    /* background-color: #060605; */
+    background: url(images3/pexels-pille-kirsi-1031460.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+#contact-form {
+    font-size: 25px;
+    /* padding: 20px; */
+}
+
+.ctc-details {
+    position: relative;
+    left: -87%;
+    padding: 50px;
+    line-height: 110px;
+    text-align: left;
+}
+
+.ctc-details h1 {
+    position: relative;
+    left: 176%;
+}
+
+.form-main p {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.067);
+
+}
+
+.ctc-high {
+    position: relative;
+    /* border-radius: 5px; */
+    border-color: #000000;
+    /* height: fit-content; */
+    width: 400px;
+    /* font-size: 20px; */
+    color: rgb(255, 255, 255);
+    /* opacity: 0.5; */
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    border-bottom: 3px #0086ad solid;
+    padding-bottom: 7px;
+    text-align: left;
+}
+
+.ctc-high:hover {
+    background-color: rgba(0, 0, 0, 0.208);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.btn {
+    height: 30px;
+    width: 406px;
+    position: relative;
+    margin-top: 40px;
+    /* left: 860px; */
+    left: 195%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0086ad;
+    margin-left: -77px;
+    margin-top: 70px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.socialmedia {
+    /* background-color: #0085ad09; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 83%;
+    top: -410px;
+    justify-content: space-evenly;
+}
+
+.insta,
+.facebook,
+.pinterest,
+.sc {
+    margin: 30px 0;
+    transition: .911s;
+}
+
+.insta:hover,
+.sc:hover,
+.facebook:hover,
+.pinterest:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+    border-bottom: 2px rgb(38, 145, 160) solid;
+}
+
+
+/* Footer */
+
+#footer {
+    position: relative;
+    top: 170px;
+    background-color: #060605;
+    z-index: 33;
+}
+
+#footer-main {
+    position: relative;
+    top: -192px;
+    width: 86%;
+    height: 500px;
+    /* border: 3px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #060605;
+    left: 190px;
+}
+
+#footer-info {
+    /* border: 3px solid green; */
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heading h1 {
+    font-size: 50px;
+    color: wheat;
+}
+
+.footer-para p {
+    font-size: 24px;
+    padding: 40px;
+    width: 450px;
+    text-align: center;
+    color: wheat;
+}
+
+#blog-posts {
+    /* border: #ad6200 solid 3px; */
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 67px;
+}
+
+#popular-tags {
+    /* border: red 3px solid; */
+    height: 400px;
+    width: 500px;
+}
+
+.bp-heading1,
+.bp-heading2 {
+    transition: .91s;
+}
+
+.bp-heading2 h1 {
+    color: wheat;
+}
+
+.bp-heading1 h1 {
+    color: wheat;
+}
+
+.bp-heading h1 {
+    color: wheat;
+}
+
+
+.bp-heading1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.bp-heading2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.bp-heading1:hover,
+.bp-heading2:hover {
+    transform: scale(1.1);
+}
+
+/* Popular Tags */
+
+#popular-tags {
+    display: flex;
+    width: fit-content;
+    height: 150px;
+}
+
+.populartags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+}
+
+.pplr-head {
+    position: relative;
+    top: -50px;
+    right: 100px;
+}
+
+#popular-tags h1 {
+    position: relative;
+    left: 300px;
+    color: wheat;
+    font-size: 40px;
+
+}
+
+.t1 {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    position: relative;
+    top: 50px;
+    /* border: 2px rgb(0, 0, 0) solid; */
+    left: -70px;
+}
+
+.t1 h3 {
+    color: wheat;
+}
+
+.t1 h3:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.copyright-foot {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+    font-family: sans-serif;
+    display: flex;
+    left: 100px;
+    position: relative;
+    width: fit-content;
+    /*! top: -158px; */
+    margin-top: -110;
+}
+
+.copyright-foot h1 {
+    margin: 30px 0;
+}
+
+/* ScrollBar */
+
+html::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+html::-webkit-scrollbar-track {
+    /* width:40px; */
+    background-color: rgb(0, 183, 255);
+}
+
+html::-webkit-scrollbar-thumb {
+    /* width:40px; */
+    background-color: black;
+}
+
+/* Our team */
+#our-team {
+    background-color: rgb(94, 1, 1);
+    position: relative;
+    top: -107em;
+    height: 756px;
+    background: url(images3/team-bg.jpg.webp);
+    z-index: 111;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -11.5em;
+    /* width: fit-content; */
+    /* height: fit-content; */
+}
+
+.imgg1 {
+    position: relative;
+    top: 10em;
+}
+
+
+.imgg2 {
+    position: relative;
+    top: 15em;
+
+}
+
+.imgg3 {
+    position: relative;
+    top: 20em;
+
+}
+
+.imgg4 {
+    position: relative;
+    top: 25em;
+
+}
+
+.imgg1 img {
+    opacity: 0.7;
+    transform: scale(.87);
+    transition: 0.5s;
+}
+
+.imgg2 img {
+    opacity: 0.7;
+    transform: scale(.87);
+    transition: 0.5s;
+
+}
+
+.imgg3 img {
+    opacity: 0.7;
+    transform: scale(.87);
+    transition: 0.5s;
+
+}
+
+.imgg4 img {
+    opacity: .7;
+    transform: scale(.87);
+    transition: 0.5s;
+
+}
+
+.imgg2 img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.imgg3 img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.imgg4 img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.imgg1 img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.ourteamheading {
+    color: rgb(92, 77, 54);
+    position: relative;
+    top: 1em;
+    text-align: center;
+    font-size: 23px;
+    background-color: rgba(128, 128, 128, 0.02);
+    z-index: 111;
+    font-family: sans-serif;
+}
+
+.ourteamheading h1 {
+    color: rgba(230, 223, 214, 0.61);
+    position: relative;
+    top: 2rem;
+    font-size: 60px;
+}
+
+.team h1,
+h2 {
+    color: rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    transition: 0.5s;
+    position: relative;
+    z-index: 2222;
+    /* transform: translateY(50px);  */
+    top: 22rem;
+    opacity: 1;
+}
+
+.team h1:hover,
+h2:hover {
+    transform: scale(1);
+    cursor: default;
+    opacity: 1;
+    transform: translateY(0px);
+}
